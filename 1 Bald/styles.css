@@ -1,0 +1,147 @@
+:root {
+  --skin: #f6c09c;
+  --dark-skin: #ddac8c;
+  --background: #ed4042;
+  --red: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+  --hole: #c4997c;
+}
+body{
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  width: 250px;
+  height: 450px;
+  background: var(--skin);
+  border-radius: 140px;
+  position: relative;
+}
+.eye-left {
+  width: 70px;
+  height: 44px;
+  background: var(--white);
+  position: absolute;
+  top: 130px;
+  border-radius: 15px 15px 90px 90px;
+  left: 60px;
+}
+.eye-left .eye-left-pupile {
+  position: absolute;
+  width: 10px;  
+  height: 10px;
+  top: 10px;
+  left: 30px;
+  border-radius: 50%;
+  background: black
+}
+.eye-right {
+  width: 70px;
+  height: 44px;
+  background: var(--white);
+  position: absolute;
+  top: 130px;
+  border-radius: 15px 15px 90px 90px;
+  left: 120px;
+}
+.eye-right .eye-right-pupile {
+  position: absolute;
+  width: 10px;  
+  height: 10px;
+  top: 10px;
+  left: 30px;
+  border-radius: 50%;
+  background: black
+}
+.neck {
+  width: 180px;
+  height: 100px;
+  background: var(--dark-skin);
+  position: absolute;
+  top: 430px;
+  left: 35px;
+}
+.bread {
+  width: 250px;
+  height: 300px;
+  background: var(--black);
+  position: absolute;
+  top: 200px;
+  border-radius: 100px 100px 150px 150px;
+  z-index: 3;
+}
+.bread .nose {
+  width: 70px;
+  height: 55px;
+  background: var(--skin);
+  position: absolute;
+  top: -10px;
+  border-radius: 15px 15px 90px 90px;
+  left: 89px;
+}
+.bread .mouth {
+  width: 120px;
+  height: 60px;
+  background: var(--dark-red);
+  position: absolute;
+  top: 75px;
+  left: 62px;
+  border-radius: 0 0 120px 120px;
+}
+.mouth .teeth {
+  width: 80px;
+  height: 18px;
+  background: var(--white);
+  border-radius: 0 0 15px 10px;
+}
+.mouth .tongue {
+  width: 50px;
+  height: 30px;
+  background: var(--red);
+  position: absolute;
+  top: 29px;
+  left: 10px;
+  border-radius: 0 20px 20px 80px;
+}
+.ear-left {
+  width: 30px;
+  height: 48px;
+  background: var(--dark-skin);
+  position: absolute;
+  top: 150px;
+  left: -30px;
+  border-radius: 50px 0 0 50px;
+}
+.hole-l {
+  width: 15px;
+  height: 15px;
+  background: var(--hole);
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  border-radius: 10px 0 0 10px;
+}
+.ear-right {
+  width: 30px;
+  height: 48px;
+  background: var(--dark-skin);
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  border-radius: 0 50px 50px 0;
+}
+.hole-r {
+  width: 15px;
+  height: 15px;
+  background: var(--hole);
+  position: absolute;
+  top: 16px;
+  border-radius: 0 10px 10px 0;
+}
